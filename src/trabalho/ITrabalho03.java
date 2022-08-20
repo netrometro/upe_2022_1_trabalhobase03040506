@@ -5,11 +5,12 @@ public interface ITrabalho03 {
 	String getEstudante();
 
 	ITAD[] criaLista(int tamanho);
-	int getQuantidade(ITAD[] lista);
+	int getQuantidade();
 	
-	void enqueue(ITAD[] lista, ITAD tad);
-	ITAD dequeue(ITAD[] lista);
+	void enqueue(ITAD tad);
+	ITAD dequeue();
+	ITAD consulta();
 	
-	String print(ITAD[] lista);
+	String print();
 	
 }
